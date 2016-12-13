@@ -82,8 +82,20 @@ class Manager extends Person{
     }
 
     void sort(){ // 직접 소팅 알고리즘을 이용하여 코딩해야함. 자바 기본 정렬 메소드 이용시 감
+        int i, j, temp;
+        for (i = 0; i < list.size() - 1; i++) {
+            for (j = 0; j < list.size() - 1 - i; j++) {
+                if (list[j] > list.)
+                {temp = list[j];
+                    list[j] = list[j + 1];
+                    list[j + 1] = temp;
+                }
+            }
+        }
 
-        // need something here
+        for (i = 0; i < list.size(); i++) {
+            System.out.print(list.[i] + " ");
+        }
 
     }
 
